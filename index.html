@@ -27,7 +27,7 @@
         ws.close();
       }
 
-      ws = new WebSocket('ws://https://chat-app-demo.vercel.app');
+      ws = new WebSocket('ws://https://chat-app-demo.vercel.app:8080');
       ws.onopen = () => {
         console.log('Connection opened!');
       }
